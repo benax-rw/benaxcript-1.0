@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    text-align: center;
+    background: #380556;
+}
+
+#benax-terminal-run-button{
+	background-image: url(../images/run-icon-35.png); 
+	height: 35px; 
+	width:  35px; 
+	background-repeat: no-repeat; 
+	position: fixed; 
+	top: 1%; 
+	right: 2%; 
+	cursor: pointer; 
+	border-width: 0; 
+}
+
+
+#benax-terminal-textarea{
+	width: 85%; 
+	height: 100vh; 
+	background: #380556; 
+	color: #FFF; 
+	font-family: "Courier New"; 
+	border-width: 0; 
+	font-size: 20px; 
+	padding-top:11%;
+	padding-left:5%;
+	padding-right:10%;
+	font-weight: bold; 
+	resize: none; 
+}
+
+#benax-terminal-textarea:focus{
+	outline: 0;
+}
+
+
+#last_codes{
+	width: 95%;
+	background: #883c88; 
+	color: #FD0; 
+	text-align: left;
+	font-family: "Courier New"; 
+	font-weight: bold; 
+	font-size: 20px; 
+	margin-top: 0px;  
+	padding-left: 2.5%; 
+	padding-right: 2.5%; 
+	border-top: 1px solid #FFF; 
+	white-space:pre-wrap;
+}
+
+#loadPic{
+    position: absolute;
+	top: 10%;
+	left: 10%;
+    z-index: 9;
+    background-color: #f1f1f1;
+    text-align: center;
+    border: 1px solid #d3d3d3;
+	width: 50%;
+	display: none;
+	resize: both;
+    overflow: auto;
+}
+
+#loadPicHeader{
+    padding: 10px;
+    cursor: move;
+    z-index: 10;
+    background-color: #2196F3;
+    color: #fff;
+	width: 90%;
+	display: none;
+}
+
+@media screen and (min-width: 640px) {
+
+	#loadPic{
+		width: 50%;
+	}
+
+	#loadPicHeader{
+		width: 97%;
+	}
+	
+}

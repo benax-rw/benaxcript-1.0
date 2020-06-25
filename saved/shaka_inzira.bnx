@@ -1,0 +1,20 @@
+burundu:
+
+@genzura hagati
+@niba(intera hagati<50):
+@@genda kinyumanyuma(0.1,60)
+@@kata ibumoso(0.2,60)
+@bitari ibyo:
+@@jya imbere(0.1,50)
+
+@genzura ibumoso
+@niba(intera ibumoso<50):
+@@kata iburyo(0.2,60)
+@bitari ibyo:
+@@jya imbere(0.1,50)
+
+@genzura iburyo
+@niba(intera iburyo<50):
+@@kata ibumoso(0.2,60)
+@bitari ibyo:
+@@jya imbere(0.1,50)
